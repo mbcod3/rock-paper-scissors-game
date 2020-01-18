@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography } from '@material-ui/core';
 import logo from './images/logo.svg'
+import advLogo from './images/logo-bonus.svg'
 import Score from './Score'
 
 const useStyles = makeStyles({
@@ -13,30 +13,17 @@ const useStyles = makeStyles({
     textAlign: 'left',
     border: '3px solid hsl(217, 16%, 45%)',
     borderRadius: '10px',
-    padding: '2rem',
-  },
-  scoreboard: {
-    backgroundColor: 'rgb(249,249,249)',
-    borderRadius: '5px',
-    color: 'hsl(229, 25%, 31%)',
-    padding: '.5rem 3rem',
-    textTransform: 'uppercase',
-    '& h6': {
-      color: 'hsl(229, 64%, 46%)',
-      marginBottom: '-12px'
-    }
+    padding: prop => prop === 5 ? '1.7rem 2rem' : '2rem',
   }
 })
 
-export default function Header() {
-  const classes = useStyles()
+export default function Header(props) {
+  const {gameType, score} = props
+  const classes = useStyles(gameType);
   return (
     <div className={classes.root}>
-      <img src={logo} alt="logo" className="img-fluid"/>
-      <div className={classes.scoreboard}>
-        <Typography variant="subtitle1">Score</Typography>
-        <Score />
-      </div>
+      <img src={gameType === 3 ? logo : advLogo} alt="logo" className="img-fluid"/>
+        <Score score={score} />
     </div>
   )
 }
