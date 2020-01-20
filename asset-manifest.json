@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/rock-paper-scissors-game/static/css/main.eab24d3c.chunk.css",
+    "main.js": "/rock-paper-scissors-game/static/js/main.c0d77506.chunk.js",
+    "main.js.map": "/rock-paper-scissors-game/static/js/main.c0d77506.chunk.js.map",
+    "runtime-main.js": "/rock-paper-scissors-game/static/js/runtime-main.a683337a.js",
+    "runtime-main.js.map": "/rock-paper-scissors-game/static/js/runtime-main.a683337a.js.map",
+    "static/js/2.be365a10.chunk.js": "/rock-paper-scissors-game/static/js/2.be365a10.chunk.js",
+    "static/js/2.be365a10.chunk.js.map": "/rock-paper-scissors-game/static/js/2.be365a10.chunk.js.map",
+    "index.html": "/rock-paper-scissors-game/index.html",
+    "precache-manifest.bb1e31f639da0298d976c988156e00c3.js": "/rock-paper-scissors-game/precache-manifest.bb1e31f639da0298d976c988156e00c3.js",
+    "service-worker.js": "/rock-paper-scissors-game/service-worker.js",
+    "static/css/main.eab24d3c.chunk.css.map": "/rock-paper-scissors-game/static/css/main.eab24d3c.chunk.css.map",
+    "static/js/2.be365a10.chunk.js.LICENSE": "/rock-paper-scissors-game/static/js/2.be365a10.chunk.js.LICENSE",
+    "static/media/bg-pentagon.svg": "/rock-paper-scissors-game/static/media/bg-pentagon.aced7052.svg",
+    "static/media/bg-triangle.svg": "/rock-paper-scissors-game/static/media/bg-triangle.1fd44bdf.svg",
+    "static/media/icon-lizard.svg": "/rock-paper-scissors-game/static/media/icon-lizard.7d2e0b18.svg",
+    "static/media/icon-paper.svg": "/rock-paper-scissors-game/static/media/icon-paper.69a8c2e9.svg",
+    "static/media/icon-rock.svg": "/rock-paper-scissors-game/static/media/icon-rock.8ce1e109.svg",
+    "static/media/icon-scissors.svg": "/rock-paper-scissors-game/static/media/icon-scissors.bec2f9b3.svg",
+    "static/media/icon-spock.svg": "/rock-paper-scissors-game/static/media/icon-spock.b6446e8e.svg",
+    "static/media/image-rules-bonus.svg": "/rock-paper-scissors-game/static/media/image-rules-bonus.f19a40fb.svg",
+    "static/media/image-rules.svg": "/rock-paper-scissors-game/static/media/image-rules.5d74d25d.svg",
+    "static/media/logo-bonus.svg": "/rock-paper-scissors-game/static/media/logo-bonus.f4c973f7.svg",
+    "static/media/logo.svg": "/rock-paper-scissors-game/static/media/logo.759a2075.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a683337a.js",
+    "static/js/2.be365a10.chunk.js",
+    "static/css/main.eab24d3c.chunk.css",
+    "static/js/main.c0d77506.chunk.js"
+  ]
+}
