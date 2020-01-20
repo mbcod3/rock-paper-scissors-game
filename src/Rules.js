@@ -24,12 +24,22 @@ const styles = theme => ({
     paddingLeft: '3rem',
     paddingRight: '3rem',
     paddingTop: '2rem',
+    '@media(max-width:507px)': {
+      paddingLeft: '1rem',
+      paddingRight: '1rem',
+    }
   },
   closeButton: {
     position: 'absolute',
     right: theme.spacing(4),
     top: theme.spacing(3),
     color: theme.palette.grey[400],
+    '@media(max-width:599px)': {
+      top: theme.spacing(2)
+    },
+    '@media(max-width:507px)': {
+      right: theme.spacing(1)
+    }
   },
   boldTitle: {
     fontWeight: '700',
@@ -60,7 +70,11 @@ const DialogContent = withStyles(theme => ({
     padding: theme.spacing(2),
     paddingLeft: '3rem',
     paddingRight: '3rem',
-    paddingBottom: '2rem'
+    paddingBottom: '2rem',
+    '@media(max-width:507px)': {
+      paddingLeft: '1rem',
+      paddingRight: '1rem',
+    },
   },
 }))(MuiDialogContent);
 
@@ -81,6 +95,9 @@ const useStyles = makeStyles({
       bottom: props => props && '30px',
       left: props => props && '50%',
       transform: props => props && 'translateX(-50%)',
+    },
+    '@media(max-width: 507px)': {
+      marginRight: 'auto'
     }
   }
 })
@@ -109,7 +126,7 @@ export default function CustomizedDialogs(props) {
           RULES
         </DialogTitle>
         <DialogContent >
-          <img src={gameType === 3 ? rules : advancedRules} alt="game rules"/>
+          <img src={gameType === 3 ? rules : advancedRules} alt="game rules" className="img-fluid" />
         </DialogContent>
       </Dialog>
     </div>

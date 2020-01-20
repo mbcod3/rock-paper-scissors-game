@@ -16,6 +16,10 @@ const useStyles = makeStyles({
       width: '194px',
       height: '196px'
     },
+    '@media(max-width: 507px)': {
+      width: '134px',
+      height: '136px'
+    },
     '&::before': {
       position: 'absolute',
       content: "''",
@@ -35,6 +39,10 @@ const useStyles = makeStyles({
       '@media(max-width: 768px)': {
         width: '125px',
         height: '125px'
+      },
+      '@media(max-width: 507px)': {
+        width: '110px',
+        height: '110px'
       }
     }
   },

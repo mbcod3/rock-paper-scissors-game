@@ -18,19 +18,30 @@ const useStyles = makeStyles({
     margin: "4rem auto 1rem"
   },
   basicStyles: {
-    maxWidth: "27rem",
+    maxWidth: "432px",
     background: `url(${triangle}) no-repeat center 75% `,
+    position: 'relative',
     '@media (max-width:768px)': {
-      maxWidth: '24rem',
+      maxWidth: '384px',
       backgroundPositionY: '120%'
+    },
+    '@media (max-width:507px)': {
+      maxWidth: '300px',
+      backgroundPositionY: '200%',
+      backgroundSize: '250px 250px',
     }
   },
   advanceStyles: {
     background: `url(${pentagon}) no-repeat center 50%`,
-    maxWidth: "30rem",
+    maxWidth: "480px",
     '@media (max-width:768px)': {
-      maxWidth: '27rem',
+      maxWidth: '432px',
       backgroundPositionY: '40%'
+    },
+    '@media (max-width:507px)': {
+      maxWidth: '327px',
+      backgroundPositionY: '50%',
+      backgroundSize: '220px 220px'
     }
   },
 });

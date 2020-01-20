@@ -23,7 +23,7 @@ const useStyles = makeStyles({
     ".img-fluid": {
       maxWidth: "100%",
       height: "auto",
-      alignSelf: "flex-start",
+      alignSelf: "center",
     },
   },
   root: {

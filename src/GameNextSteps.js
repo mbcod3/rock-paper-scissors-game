@@ -21,19 +21,29 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
+    alignItems: 'center',
     '&:nth-child(1)': {
       marginRight: props => props ? 'auto' : '2.5em',
       '@media(max-width: 768px)': {
-        marginRight: props => props ? '2.5em' : '2.5em'
+        marginRight: props => '2.5em'
+      },
+      '@media(max-width: 507px)': {
+        marginRight: props => '.8em'
       }
     },
     '&:nth-child(2)': {
       marginLeft: '2.5em',
+      '@media(max-width: 507px)': {
+        marginLeft: props => '.8em'
+      }
     },
     '&:nth-child(3)': {
       marginLeft: props => props ? 'auto' : '2.5em',
       '@media(max-width: 768px)': {
         marginLeft: props => props ? '2.5em' : '2.5em'
+      },
+      '@media(max-width: 507px)': {
+        marginLeft: props => '.8em'
       }
     }
   },
@@ -46,6 +56,9 @@ const useStyles = makeStyles({
       order: '2',
       marginBottom: '2rem',
       marginTop: '2rem'
+    },
+    '@media(max-width: 507px)': {
+      fontSize: '1rem'
     }
   },
   btnPlay: {

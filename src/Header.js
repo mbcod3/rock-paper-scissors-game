@@ -12,8 +12,15 @@ const useStyles = makeStyles({
     margin: '2rem auto',
     textAlign: 'left',
     border: '3px solid hsl(217, 16%, 45%)',
-    borderRadius: '10px',
-    padding: prop => prop === 5 ? '1.7rem 2rem' : '2rem',
+    borderRadius: '7px',
+    padding: prop => prop === 5 ? '1rem 2rem' : '1.3rem 2rem',
+    '@media(max-width:507px)': {
+      padding: prop => prop === 5 ? '1rem': '1rem',
+      '& img': {
+        width: prop => prop === 5 ? '80px' : '130px',
+        height: prop => prop === 5 ? '75px' : 'auto'
+      }
+    }
   }
 })
 

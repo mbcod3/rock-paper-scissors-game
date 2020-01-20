@@ -20,9 +20,16 @@ const useStyles = makeStyles({
       padding: props => props.gameType ? '18px': '22px',
       paddingBottom: props => props.gameType ? '20px' : '24px'
     },
+    '@media (max-width: 507px)': {
+      padding: props => props.gameType ? '14px': '17px',
+      paddingBottom: props => props.gameType ? '15px' : '19px'
+    },
     '&:nth-child(1)': {
       order: props => props.gameType === 5 && '3',
-      marginTop: props => props.gameType === 5 && '8.2rem'
+      marginTop: props => props.gameType === 5 && '8.2rem',
+      '@media(max-width:507px)': {
+        marginTop: props => props.gameType === 5 && '6rem'
+      }
     },
     '&:nth-child(2)': {
       order: props => props.gameType === 5 && '2'
@@ -32,16 +39,30 @@ const useStyles = makeStyles({
       alignSelf: props => props.gameType === 5 && 'flex-start',
       order: props => props.gameType === 5 && '5',
       marginTop: props => props.gameType === 5 && '2.5rem',
-      marginRight: props => props.gameType === 5 && '4rem'
+      marginRight: props => props.gameType === 5 && '4rem',
+      '@media(max-width:768px)': {
+        marginTop: props => props.gameType === 3 && '1.5rem'
+      },
+      '@media(max-width:507px)': {
+        marginTop: props => props.gameType === 3 ? '1rem' : '2rem',
+        marginRight: props => props.gameType === 5 && '2.5rem'
+      }
     },
     '&:nth-child(4)': {
       order: '4',
       marginTop: '2.5rem',
-      marginLeft: '4rem'
+      marginLeft: '4rem',
+      '@media(max-width:507px)': {
+        marginLeft: '2.5rem',
+        marginTop : '2rem'
+      }
     },
     '&:nth-child(5)': {
       order: '1',
-      marginTop: '8.2rem'
+      marginTop: '8.2rem',
+      '@media(max-width:507px)': {
+        marginTop: props => props.gameType === 5 && '6rem'
+      }
     },  
   },
   rootLights: { 
@@ -111,6 +132,10 @@ const useStyles = makeStyles({
     '@media (max-width: 768px)': {
       width: props => props.gameType === 5 ? '100px' : props.gameType === 3 ? '115px' : '150px',
       height: props => props.gameType === 5 ? '100px' : props.gameType === 3 ? '115px' : '150px',
+    },
+    '@media (max-width: 507px)': {
+      width: props => props.gameType === 5 ? '80px' : props.gameType === 3 ? '100px' : '100px',
+      height: props => props.gameType === 5 ? '80px' : props.gameType === 3 ? '100px' : '100px',
     }
   },
   wrapLight: {
