@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9af8078d32abd25b775da5f7f15ce36",
+    "revision": "ecc03b8a4b12f35622960b2883feb536",
     "url": "/rock-paper-scissors-game/index.html"
   },
   {
