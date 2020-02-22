@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecc03b8a4b12f35622960b2883feb536",
+    "revision": "7a15d477b4e673cd821c48eab5de1784",
     "url": "/rock-paper-scissors-game/index.html"
   },
   {
-    "revision": "153f9e813ffd002678c2",
+    "revision": "06cf8de65eb865884caf",
     "url": "/rock-paper-scissors-game/static/css/main.eab24d3c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rock-paper-scissors-game/static/js/2.be365a10.chunk.js.LICENSE"
   },
   {
-    "revision": "153f9e813ffd002678c2",
-    "url": "/rock-paper-scissors-game/static/js/main.c0d77506.chunk.js"
+    "revision": "06cf8de65eb865884caf",
+    "url": "/rock-paper-scissors-game/static/js/main.41ecfb36.chunk.js"
   },
   {
     "revision": "4dcaa7c45dc3ae5cd1b9",
