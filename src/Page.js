@@ -18,7 +18,7 @@ const useStyles = makeStyles({
       fontFamily: "Barlow Semi Condensed, sans serif",
       color: "white",
       letterSpacing: "1.5px",
-      overflowX: 'hidden'
+      overflow: 'hidden'
     },
     ".img-fluid": {
       maxWidth: "100%",
