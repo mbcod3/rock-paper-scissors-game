@@ -11,7 +11,7 @@ const useStyles = makeStyles({
   "@global": {
     html: {
       background: "radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%)) no-repeat",
-      overflowX: 'hidden'
+      overflow: 'hidden'
     },
     body: {
       minHeight: '100vh',
